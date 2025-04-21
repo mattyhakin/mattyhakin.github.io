@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" 
-       width="466" height="698">
-</p>
 
 <div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
   <a href="https://github.com/mattyhakin" target="_blank" rel="noopener noreferrer">
@@ -20,3 +16,7 @@
   </a>
 </div>
 
+<p align="center">
+  <img src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" 
+       width="466" height="698">
+</p>
