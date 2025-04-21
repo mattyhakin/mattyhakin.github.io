@@ -13,7 +13,7 @@
          style="width: 240px; height: 240px;">
   </a>
 
-  <a href="https://www.google.co.uk" target="_blank" rel="noopener noreferrer">
+  <a href="https://mattyhakin.github.io/resume/" target="_blank" rel="noopener noreferrer">
     <img src="https://icons.veryicon.com/png/o/miscellaneous/general-icon-library/resume-7.png" 
          style="width: 240px; height: 240px;">
   </a>
