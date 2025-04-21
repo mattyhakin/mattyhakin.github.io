@@ -25,5 +25,5 @@
 
   <!-- Centered image underneath -->
   <img src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" 
-       style="width: 200px; height: 300px;">
+       style="width: 466px; height: 698px;">
 </div>
