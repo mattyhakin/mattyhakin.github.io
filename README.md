@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" 
-       width="233" height="349">
+       width="466" height="698">
 </p>
 
 <div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
