@@ -101,6 +101,47 @@
       margin: 10px 0;
       text-align: left;
     }
+  
+    @media (max-width: 600px) {
+      .icon-row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .profile-img {
+        width: 160px;
+        height: 160px;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      .email-copy button {
+        padding: 14px 24px;
+        font-size: 1.1rem;
+      }
+
+      .badges {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .badges div {
+        flex: 1 1 150px;
+        max-width: 200px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -137,17 +178,7 @@
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7fcade8d-fab4-40c7-bd72-ff2d600161ef" data-share-badge-host="https://www.credly.com"></div>
   <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </div>
-  <h3>My Certifications</h3>
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0da33f8a-b153-4478-a082-85f9a9d0dce3" data-share-badge-host="https://www.credly.com"></div>
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c619e690-971f-4425-8082-461ae4d7a55a" data-share-badge-host="https://www.credly.com"></div>
-  <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-</div>
-  
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0da33f8a-b153-4478-a082-85f9a9d0dce3" data-share-badge-host="https://www.credly.com"></div>
-  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c619e690-971f-4425-8082-461ae4d7a55a" data-share-badge-host="https://www.credly.com"></div>
-  <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-</div>
-
+ 
   <script>
     fetch('https://api.github.com/users/mattyhakin/repos?sort=updated')
       .then(response => response.json())
