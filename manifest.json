@@ -1,0 +1,15 @@
+{
+  "name": "Matt Hakin Links",
+  "short_name": "MH Links",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f0fff4",
+  "theme_color": "#c6f6d5",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
