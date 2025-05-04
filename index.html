@@ -5,20 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matt Hakin | Links</title>
   <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --text-color: #333;
+      --subtext-color: #666;
+      --card-shadow: rgba(0, 0, 0, 0.2);
+    }
+
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --subtext-color: #bbbbbb;
+      --card-shadow: rgba(255, 255, 255, 0.1);
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 40px 20px;
       margin: 0;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     h1 {
       margin-bottom: 10px;
       font-size: 2.5rem;
-      color: #333;
     }
 
     h2 {
@@ -26,7 +41,7 @@
       margin-bottom: 30px;
       font-size: 1.2rem;
       font-weight: normal;
-      color: #666;
+      color: var(--subtext-color);
     }
 
     .icon-row {
@@ -46,7 +61,7 @@
 
     .icon-row a:hover img {
       transform: scale(1.1);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 20px var(--card-shadow);
     }
 
     .profile-img {
@@ -54,8 +69,23 @@
       height: 220px;
       object-fit: cover;
       border-radius: 50%;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 20px var(--card-shadow);
       border: 4px solid #fff;
+    }
+
+    .toggle-btn {
+      margin-bottom: 20px;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 20px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .toggle-btn:hover {
+      background-color: #0056b3;
     }
 
     @media (max-width: 600px) {
@@ -81,11 +111,11 @@
 </head>
 <body>
 
-  <!-- Header -->
+  <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
   <h1>Matt Hakin</h1>
   <h2>Software Developer & Technologist</h2>
 
-  <!-- Icons -->
   <div class="icon-row">
     <a href="https://github.com/mattyhakin" target="_blank" rel="noopener noreferrer">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/250px-Octicons-mark-github.svg.png" alt="GitHub">
@@ -101,12 +131,13 @@
     </a>
   </div>
 
-  <!-- Profile Image -->
-  <img
-    class="profile-img"
-    src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true"
-    alt="Matt Hakin"
-  />
+  <img class="profile-img" src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" alt="Matt Hakin" />
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
 
 </body>
 </html>

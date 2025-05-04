@@ -1,29 +1,33 @@
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+# Matt Hakin - Personal Links Page
 
-  <!-- Top row of icons -->
-  <div style="display: flex; gap: 20px; justify-content: center;">
-    <a href="https://github.com/mattyhakin" target="_blank" rel="noopener noreferrer">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/250px-Octicons-mark-github.svg.png"
-           style="width: 120px; height: 120px;">
-    </a>
+This is a simple static webpage built with HTML and CSS to showcase my key professional links and profile.
 
-    <a href="https://www.linkedin.com/in/matthakin/" target="_blank" rel="noopener noreferrer">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
-           style="width: 120px; height: 120px;">
-    </a>
+## Features
 
-    <a href="https://mattyhakin.github.io/resume/" target="_blank" rel="noopener noreferrer">
-      <img src="https://icons.veryicon.com/png/o/miscellaneous/general-icon-library/resume-7.png" 
-           style="width: 120px; height: 120px;">
-    </a>
+- Links to GitHub, LinkedIn, Resume, and Credly
+- Circular profile picture
+- Responsive layout for mobile and desktop
+- Light/Dark mode toggle
 
-    <a href="https://www.credly.com/users/matt-hakin" target="_blank" rel="noopener noreferrer">
-      <img src="https://www.svgrepo.com/show/331358/credly.svg" 
-           style="width: 120px; height: 120px;">
-    </a>
-  </div>
+## Preview
 
-  <!-- Centered image underneath -->
-  <img src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true" 
-       style="width: 466px; height: 698px;">
-</div>
+You can view the live site here:  
+➡️ [https://mattyhakin.github.io/](https://mattyhakin.github.io/)
+
+## How to Use / Deploy
+
+1. Clone or download this repository.
+2. If you're not already using GitHub Pages:
+   - Go to your repo settings on GitHub.
+   - Scroll to the "Pages" section.
+   - Set the source branch to `main` (or `docs` if using a separate branch).
+   - Choose root or `/docs` depending on where your `index.html` is.
+3. That's it! GitHub will serve your site automatically.
+
+## Credits
+
+Icons and logos are from:
+- GitHub
+- LinkedIn
+- VeryIcon
+- SVGRepo
