@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matt Hakin | Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: #666;
+    }
+
+    .icon-row {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .icon-row a img {
+      width: 100px;
+      height: 100px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border-radius: 15px;
+    }
+
+    .icon-row a:hover img {
+      transform: scale(1.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      border: 4px solid #fff;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      .icon-row a img {
+        width: 80px;
+        height: 80px;
+      }
+
+      .profile-img {
+        width: 160px;
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <h1>Matt Hakin</h1>
+  <h2>Software Developer & Technologist</h2>
+
+  <!-- Icons -->
+  <div class="icon-row">
+    <a href="https://github.com/mattyhakin" target="_blank" rel="noopener noreferrer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/250px-Octicons-mark-github.svg.png" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/matthakin/" target="_blank" rel="noopener noreferrer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+    </a>
+    <a href="https://mattyhakin.github.io/resume/" target="_blank" rel="noopener noreferrer">
+      <img src="https://icons.veryicon.com/png/o/miscellaneous/general-icon-library/resume-7.png" alt="Resume">
+    </a>
+    <a href="https://www.credly.com/users/matt-hakin" target="_blank" rel="noopener noreferrer">
+      <img src="https://www.svgrepo.com/show/331358/credly.svg" alt="Credly">
+    </a>
+  </div>
+
+  <!-- Profile Image -->
+  <img
+    class="profile-img"
+    src="https://github.com/mattyhakin/mattyhakin.github.io/blob/main/docs/assets/Me(Nobg).png?raw=true"
+    alt="Matt Hakin"
+  />
+
+</body>
+</html>
